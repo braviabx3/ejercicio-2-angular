@@ -1,0 +1,4 @@
+<div>
+  <app-nombre *ngFor="let nom of nombres" [nombre]="nom" (deleteNombre)="deleteNombre($event)">
+  </app-nombre>
+</div>
